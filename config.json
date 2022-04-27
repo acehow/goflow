@@ -1,0 +1,5 @@
+{
+  "Port": "8080",
+  "Dsn": "root:tenoahuw1@tcp(127.0.0.1:3306)/goflow?parseTime=true"
+
+}
