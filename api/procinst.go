@@ -37,7 +37,7 @@ func StartProcessInstance(procDefId string, user *model.User) (instId, flowId, t
 	procinst.Create_email = user.Email
 	procinst.Create_phone = user.Phone
 	procinst.Current_flow = flowId
-	procinst.Start_id = taskId
+	procinst.Start_id = flowId
 	procinst.Create_id = user.Id
 	procinst.Update_id = user.Id
 	procinst.Create_time = &now
