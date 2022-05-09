@@ -1,4 +1,4 @@
-module goflow
+module github.com/acehow/goflow
 
 go 1.18
 
